@@ -6,7 +6,7 @@ import sys
 def main():
     
     ## Foreground background recognition
-    if (sys.argv[0] == ""):
+    if (sys.argv[1] == ""):
         gray = sp.imread('coins_pix.jpg',mode='L')
     else:
         try:

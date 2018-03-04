@@ -9,7 +9,7 @@ count = 0
 ## Finding the central moment of an object and fix its rotation
 def main():
     global count
-    if (sys.argv[0] == ""):
+    if (sys.argv[1] == ""):
         pic = 'pen.jpg'
     else:
         try:
